@@ -41,6 +41,8 @@ sns.histplot(df['Age'], kde=True)
 ~~~ python
 sns.barplot(x='Pclass', y='Fare', data=df)
 ~~~
+
+
 ### 3️⃣ Box Plot
 - **What it is**: Shows the distribution of a feature using quartiles and outliers.
 - **Use case**: Spotting outliers and comparing distributions.
@@ -184,6 +186,8 @@ sns.barplot(x='Pclass', y='Fare', data=df, palette='Blues')
 plt.title("Average Fare by Passenger Class")
 plt.show()
 ~~~
+![Barplot](https://github.com/user-attachments/assets/c2a9e674-44fe-4014-9506-57dec19a7d57)
+
 
 ### 3️⃣ Box Plot
 Box plots display the spread and outliers of numeric data.
