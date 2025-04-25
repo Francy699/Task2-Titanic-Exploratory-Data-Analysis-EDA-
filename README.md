@@ -174,7 +174,8 @@ plt.ylabel("Frequency")
 plt.show()
 ~~~
 
-(image-3.png)
+ ![histogram](https://github.com/user-attachments/assets/17964ef3-8e7e-4fee-a6ff-f109d26344c2)
+
 
 ### 2️⃣ Bar Plot
 Bar plots are used to compare average numeric values across categories.
@@ -184,8 +185,6 @@ plt.title("Average Fare by Passenger Class")
 plt.show()
 ~~~
 
-(image-4.png)
-
 ### 3️⃣ Box Plot
 Box plots display the spread and outliers of numeric data.
 ~~~ python
@@ -194,7 +193,8 @@ plt.title("Age Distribution by Survival Status")
 plt.show()
 ~~~
 
-(image-1.png)
+![box plot](https://github.com/user-attachments/assets/a9c48ea8-5778-4ad4-8d68-29c32951bcc5)
+
 
 
 ### 4️⃣ Count Plot
@@ -205,14 +205,16 @@ plt.title("Passenger Count by Gender")
 plt.show()
 ~~~
 
-(image-2.png)
+![count plot](https://github.com/user-attachments/assets/9d78f434-cd3e-4420-8fef-323e3dc773d1)
+
 
 ### 5️⃣ Pair Plot
 Pair plots show pairwise relationships in a dataset.
 ~~~ python
 sns.pairplot(df[['Age', 'Fare', 'Pclass', 'Survived']], hue='Survived')
 ~~~
-(image-5.png)
+![paitplot](https://github.com/user-attachments/assets/c1ab8a57-a083-4d24-a9ef-c1fcac791494)
+
 
 ### 6️⃣ Heatmap (Correlation Matrix)
 Heatmaps are used to visualize correlations between numeric features.
@@ -223,7 +225,8 @@ plt.title("Correlation Heatmap")
 plt.show()
 ~~~
 
-(image-6.png)
+![correlation heatmap](https://github.com/user-attachments/assets/0c7e36e1-73c1-470c-80c8-6e1be3c40df6)
+
 
 -----
 ## 🧠 Summary Table
